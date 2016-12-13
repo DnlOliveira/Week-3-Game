@@ -1,0 +1,42 @@
+body {
+	background-color: #333333;
+}
+
+header {
+	text-align: center;
+	color: #ffffff;
+}
+
+h1 {
+	font-family: 'Anton', sans-serif;
+	font-size: 72px;
+}
+p {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 18px;
+}
+
+/* FIRST DIV */
+#game {
+	margin: 30px;
+	width: 50%;
+	background-color: #ea4335;
+}
+#letters-guessed {
+	margin: 30px;
+	width: 50%;
+	height: 200px;
+	background-color: #ea4335;
+}
+#hangman {
+	margin: 30px;
+	width: 50%;
+	height: 200px;
+	background-color: #ea4335;
+}
+
+.under-score, 
+.guessed{
+	float: left;
+	margin-left: 20px;
+}
